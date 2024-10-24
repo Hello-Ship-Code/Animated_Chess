@@ -1,20 +1,34 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+name: Feature Request
+description: Request a new feature for this project
+title: "[FEATURE]: "
+labels:
+  - "feature"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit this feature request!
 
----
+        Please answer the following questions before submitting an issue.
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+        - [x] I am running the latest version
+        - [x] I checked the documentation and found no answer
+        - [x] I checked to make sure that this issue has not already been filed
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: A clear and concise description of the feature.
+      placeholder: "Example: As a [user role], I want to [complete action] so that I can [achieve outcome]"
+    validations:
+      required: true
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
