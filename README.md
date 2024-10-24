@@ -40,7 +40,7 @@ To achieve this, several aspects will need to be considered:
 
 
 
-Since you are developing **Animated Chess** as a web application, you can leverage modern web development technologies that offer robust support for interactive graphics, animations, and multiplayer functionality. Here’s a breakdown of the best technologies for building a dynamic, web-based chess game:
+Since we are developing **Animated Chess** as a web application, we can leverage modern web development technologies that offer robust support for interactive graphics, animations, and multiplayer functionality. Here’s a breakdown of the best technologies for building a dynamic, web-based chess game:
 
 ### 1. **Frontend (User Interface and Game Logic)**:
 
