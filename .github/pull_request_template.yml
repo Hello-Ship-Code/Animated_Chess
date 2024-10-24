@@ -1,15 +1,59 @@
-# Pull Request Template
+---
+title: "[Issue ID] | PR Title"
+---
 
-## Thanks for your contribution! 🎉  
-Please follow the guidelines outlined in our [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+<!-- Please ensure your PR title follows the pattern:
+[Issue ID] | Short description of the changes made
+-->
 
-### **Naming Convention Summary**
-- **PR Title:** `[ISSUE ID] | Short description of PR`
-- **Branch Name:** `[ISSUE ID]-short-description`
-- **Commit Format:** `[[ISSUE ID]] [ACTION]: what was done`
+**Discord Username:** @<your-username>
 
-**Example:**
-```text
-PR: #2 Add Docker container for Postgres  
-Branch: 2-add-container-postgres  
-Commit: [2] feat: add docker container for postgres
+---
+
+## What type of PR is this? (select all that apply)
+
+- [ ] 🍕 Feature  
+- [ ] 🐛 Bug Fix  
+- [ ] 🚧 Breaking Change  
+- [ ] 🧑‍💻 Code Refactor  
+- [ ] 📝 Documentation Update  
+
+---
+
+## Description  
+<!-- Please include a summary of the changes made and what issue is fixed.
+Also provide relevant context and list any dependencies required for the change. -->
+
+---
+
+## Related Tickets & Documents  
+- Related Issue: #  
+- Closes: #  
+
+---
+
+## QA Instructions, Screenshots, Recordings  
+<!-- Provide detailed instructions on how the reviewer can test your changes.
+Mention any devices or browsers used for testing, and include screenshots or recordings if applicable. -->
+
+---
+
+### UI Accessibility Concerns  
+<!-- If your PR involves UI changes, please describe how accessibility is handled. -->
+
+---
+
+## Added/Updated Tests?  
+- [ ] 👍 Yes  
+- [ ] 🙅 No, not needed  
+- [ ] 🙋 No, but I need help  
+
+---
+
+## Are there any post-deployment tasks? (Optional)  
+<!-- List any tasks required after deployment, if applicable. -->
+
+---
+
+## What GIF best describes this PR or how it makes you feel? (Optional)  
+<!-- Feel free to add a fun GIF that summarizes your PR or your emotions! -->
