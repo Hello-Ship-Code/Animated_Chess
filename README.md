@@ -1,3 +1,5 @@
-# this for practice for github please feel free to work on this
+# practice
 
-I'm adding this line from dev ( locally ) to Devs ( remote ) branch
+## this for practicing github
+
+Adding this line from my local  branch (dev) to the remote branch (devs). My first branch commit for a pull request.
