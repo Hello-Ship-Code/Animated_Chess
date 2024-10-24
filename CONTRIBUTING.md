@@ -1,15 +1,61 @@
-### Ways to contribute
+# CONTRIBUTING
 
-On the GitHub Docs site, you can contribute by clicking the **Make a contribution** button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
+When contributing to this repository, please first discuss the change you wish to make via [issues]((https://github.com/Hello-Ship-Code/this_Test_for_github/issues)).
 
-You can also contribute by creating a local environment or opening a Codespace. For more information, see "[Setting up your environment to work on GitHub Docs](https://docs.github.com/en/contributing/setting-up-your-environment-to-work-on-github-docs)."
+Please note if you are working on a certain issue then make sure to stay active with development.
 
-For more complex contributions, please open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
+## Git Commit, Branch, and PR Naming Conventions
 
-If you're looking for a way to contribute, you can scan through our [help wanted board](https://github.com/github/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to find open issues already approved for work.
+When you are working with git, please be sure to follow the conventions below on your pull requests, branches, and commits:
 
-### And that's it!
+```text
+PR: [#ISSUE ID] Title of the PR
+Branch: [ISSUE ID]-title-of-the-pr (shorter)
+Commit: [[ISSUE ID]] [ACTION]: what was done
+```
 
-If you're having trouble with your GitHub account, contact [Support](https://support.github.com).
+Examples:
 
-That's how you can easily become a member of the GitHub Docs community. :sparkles:
+```text
+PR: #2 Add Docker container for Postgres
+Branch: 2-add-container-postgres
+Commit: [2] feat: add docker container for postgres
+```
+
+## Prerequisites
+
+## Installation
+
+## Working on New Features
+
+If you want to work on a new feature, follow these steps.
+
+1. Fork the repository
+2. Clone your fork
+3. Checkout a new branch
+4. Do your work
+5. Commit
+6. Push your branch to your fork
+7. Go into github UI and create a PR from your fork & branch, and merge it into upstream MAIN
+
+## Pulling in changes from upstream
+
+You should pull in the changes that we add in daily, preferably before you checkout a new branch to do new work.
+
+```sh
+git checkout main
+```
+
+```sh
+git pull upstream main
+```
+
+## Before Submitting a Pull Request
+
+Before submitting a **Pull Request**, you should
+
+1. Check your code safety with Linter and TypeScript, and make sure your code can build successfully.
+
+```sh
+npm run pr:precheck
+```
