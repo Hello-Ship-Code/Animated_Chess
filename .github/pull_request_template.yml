@@ -1,91 +1,15 @@
-name: Pull Request
-description: Submit a pull request to contribute changes to the project
-title: "[PR]: "
-labels:
-  - "pull request"
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Thanks for your contribution! 🎉  
-        Please follow the guidelines outlined in our [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+# Pull Request Template
 
-        ### **Naming Convention Summary**
-        - **PR Title:** `[ISSUE ID] | Short description of PR`
-        - **Branch Name:** `[ISSUE ID]-short-description`
-        - **Commit Format:** `[[ISSUE ID]] [ACTION]: what was done`
+## Thanks for your contribution! 🎉  
+Please follow the guidelines outlined in our [CONTRIBUTING.md](../CONTRIBUTING.md) file.
 
-        Example:
-        ```text
-        PR: #2 Add Docker container for Postgres  
-        Branch: 2-add-container-postgres  
-        Commit: [2] feat: add docker container for postgres
-        ```
+### **Naming Convention Summary**
+- **PR Title:** `[ISSUE ID] | Short description of PR`
+- **Branch Name:** `[ISSUE ID]-short-description`
+- **Commit Format:** `[[ISSUE ID]] [ACTION]: what was done`
 
-  - type: textarea
-    id: summary
-    attributes:
-      label: "Summary"
-      description: "Provide a concise summary of the changes made."
-      placeholder: "What changes have been introduced?"
-    validations:
-      required: true
-
-  - type: textarea
-    id: issue
-    attributes:
-      label: "Related Issues"
-      description: "Link related issues or tickets."
-      placeholder: "Closes #<issue_number>, Related to #<issue_number>"
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: type_of_change
-    attributes:
-      label: "Type of Change"
-      options:
-        - label: "🍕 Feature"
-        - label: "🐛 Bug Fix"
-        - label: "📝 Documentation Update"
-        - label: "🚧 Breaking Change"
-        - label: "🧑‍💻 Code Refactor"
-
-  - type: textarea
-    id: qa_instructions
-    attributes:
-      label: "QA Instructions"
-      description: "Provide testing instructions to verify your changes."
-      placeholder: "How can the reviewer verify these changes?"
-
-  - type: textarea
-    id: post_deployment
-    attributes:
-      label: "Post-Deployment Tasks (Optional)"
-      description: "Are there any tasks required after deployment?"
-      placeholder: "List any post-deployment steps."
-
-  - type: textarea
-    id: accessibility
-    attributes:
-      label: "Accessibility Concerns (Optional)"
-      description: "Does this PR introduce any UI changes that impact accessibility?"
-      placeholder: "How have you addressed accessibility?"
-
-  - type: checkboxes
-    id: lint_check
-    attributes:
-      label: "Code Pre-check"
-      description: "Ensure you have followed the pre-check process before submitting your PR."
-      options:
-        - label: "I ran `npm run pr:precheck` and verified everything is working."
-          required: true
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "Code of Conduct"
-      description: "By submitting this pull request, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md)."
-      options:
-        - label: "I agree to follow this project's Code of Conduct."
-          required: true
+**Example:**
+```text
+PR: #2 Add Docker container for Postgres  
+Branch: 2-add-container-postgres  
+Commit: [2] feat: add docker container for postgres
