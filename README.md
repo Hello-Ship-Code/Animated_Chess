@@ -1,4 +1,4 @@
-# Open source test 🧪
+# Open source testing 🧪
 
 ## Template to comment while bug fixing
 
