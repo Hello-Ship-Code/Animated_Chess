@@ -1,45 +1,35 @@
 name: Questions
-description: Ask questions if you have any doubts
-title: "[Question]: "
+description: Ask questions or clarify doubts
+title: "[QUESTION]: "
 labels:
-  - "questions"
+  - "question"
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to ask your question!
-
-        Please answer the following checklist before submitting:
-
-        - [x] I am running the latest version
-        - [x] I checked the documentation and found no answer
-        - [x] I checked to make sure that this question has not already been asked
+        Thanks for reaching out! Please provide your question below.
 
   - type: textarea
-    id: description
+    id: question
     attributes:
-      label: Question Description
-      description: A clear and concise description of your question or doubt.
-      placeholder: Describe your question here...
+      label: "Your Question"
+      description: "Write your question or the topic you need help with."
+      placeholder: "What do you need help with?"
     validations:
       required: true
 
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: context
     attributes:
-      label: (optional) What browsers are you using (if relevant)?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: "Context (Optional)"
+      description: "Provide any relevant background or context about your question."
+      placeholder: "Is there anything else we should know?"
 
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+      label: "Code of Conduct"
+      description: "By submitting this question, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md)."
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: "I agree to follow this project's Code of Conduct."
           required: true
