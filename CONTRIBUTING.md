@@ -1,6 +1,6 @@
 # CONTRIBUTING
 
-When contributing to this repository, please first discuss the change you wish to make via [issues]((https://github.com/Hello-Ship-Code/this_Test_for_github/issues)).
+When contributing to this repository, please first discuss the change you wish to make via [issues]((https://github.com/<Your_name>/<Your_repo_name>/issues)).
 
 Please note if you are working on a certain issue then make sure to stay active with development.
 
@@ -54,8 +54,4 @@ git pull upstream main
 
 Before submitting a **Pull Request**, you should
 
-1. Check your code safety with Linter and TypeScript, and make sure your code can build successfully.
-
-```sh
-npm run pr:precheck
-```
+1. Check your code safety with ______, and make sure your code can build successfully.
