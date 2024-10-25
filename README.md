@@ -1,6 +1,4 @@
-# Open source Template 🧪
-
-This is a basic template for an open-source project. Feel free to use it in future projects to save time and avoid starting from scratch.
+# open source Template 🧪
 
 ## Template to comment while bug fixing
 
