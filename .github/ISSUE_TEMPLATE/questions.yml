@@ -1,0 +1,35 @@
+name: Questions
+description: Ask questions or clarify doubts
+title: "[QUESTION]: "
+labels:
+  - "question"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! Please provide your question below.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your Question"
+      description: "Write your question or the topic you need help with."
+      placeholder: "What do you need help with?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context (Optional)"
+      description: "Provide any relevant background or context about your question."
+      placeholder: "Is there anything else we should know?"
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Code of Conduct"
+      description: "By submitting this question, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md)."
+      options:
+        - label: "I agree to follow this project's Code of Conduct."
+          required: true
