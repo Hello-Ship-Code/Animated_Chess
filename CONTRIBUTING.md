@@ -55,7 +55,3 @@ git pull upstream main
 Before submitting a **Pull Request**, you should
 
 1. Check your code safety with Linter and TypeScript, and make sure your code can build successfully.
-
-```sh
-npm run pr:precheck
-```

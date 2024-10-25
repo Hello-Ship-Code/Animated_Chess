@@ -6,7 +6,7 @@ title: "[Issue ID] | PR Title"
 [Issue ID] | Short description of the changes made
 -->
 
-**Discord Username:** @<your-username>
+**Discord Username:** @<your_username>
 
 ---
 
@@ -24,17 +24,8 @@ title: "[Issue ID] | PR Title"
 <!-- Please include a summary of the changes made and what issue is fixed.
 Also provide relevant context and list any dependencies required for the change. -->
 
----
-
-## Related Tickets & Documents  
-- Related Issue: #  
-- Closes: #  
-
----
-
 ## QA Instructions, Screenshots, Recordings  
-<!-- Provide detailed instructions on how the reviewer can test your changes.
-Mention any devices or browsers used for testing, and include screenshots or recordings if applicable. -->
+<!-- Provide detailed instructions on how the reviewer can test your changes. Mention any devices or browsers used for testing, and include screenshots or recordings if applicable. -->
 
 ---
 
@@ -44,6 +35,7 @@ Mention any devices or browsers used for testing, and include screenshots or rec
 ---
 
 ## Added/Updated Tests?  
+
 - [ ] 👍 Yes  
 - [ ] 🙅 No, not needed  
 - [ ] 🙋 No, but I need help  

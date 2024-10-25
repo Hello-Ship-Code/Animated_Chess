@@ -1,24 +1,38 @@
-# Security Policy
+# Security  
 
-- This is a test security policy
+We take the security of our software seriously. If you discover a security vulnerability in this project, please follow the instructions below to report it responsibly.
 
+## Reporting Security Issues  
 
-## Supported Versions
+**Do not report vulnerabilities through public issue trackers.**  
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Instead, please report them via email to:  
+**[your-email@example.com](mailto:your-email@example.com)**  
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+To protect sensitive information, consider encrypting your message using PGP if applicable.
 
-## Reporting a Vulnerability
+### Information to Include in Your Report  
 
-Use this section to tell people how to report a vulnerability.
+Providing the following details (where applicable) will help us assess the issue more effectively:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- **Type of issue** (e.g., buffer overflow, SQL injection, cross-site scripting, etc.)  
+- **Affected file paths** or components  
+- **Location of the issue** (branch/commit/tag or direct URL)  
+- **Configuration details** required to reproduce the issue  
+- **Step-by-step instructions** to reproduce the vulnerability  
+- **Proof-of-concept or exploit code** (if available)  
+- **Impact assessment**, including how an attacker could exploit the issue  
+
+We appreciate your effort in identifying security issues. Thank you for helping us maintain the safety and reliability of this project!
+
+## Response Time  
+
+We aim to respond to vulnerability reports within **24 hours**. If you don’t receive a response, feel free to follow up to ensure your message was received.  
+
+## Preferred Language  
+
+We prefer all communication in **English**.  
+
+---
+
+This version is stripped of project-specific references, with a placeholder email and general information that can be easily adapted to any project.
