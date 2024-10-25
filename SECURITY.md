@@ -32,7 +32,3 @@ We aim to respond to vulnerability reports within **24 hours**. If you don’t r
 ## Preferred Language  
 
 We prefer all communication in **English**.  
-
----
-
-This version is stripped of project-specific references, with a placeholder email and general information that can be easily adapted to any project.
